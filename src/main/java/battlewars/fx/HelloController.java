@@ -1,4 +1,4 @@
-package org.example.demo1;
+package battlewars.fx;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
