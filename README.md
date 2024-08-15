@@ -26,47 +26,6 @@ To get started with the project, you'll need to set up JavaFX on your machine an
     - Extract the downloaded JavaFX SDK to a location of your choice.
     - Note the path to the `lib` directory within the JavaFX SDK.
 
-3. **Configure Maven**:
-    - Ensure the `pom.xml` in your project includes the JavaFX dependencies and the JavaFX Maven plugin. Here’s a sample configuration:
-
-      ```xml
-      <properties>
-          <javafx.version>17.0.6</javafx.version>
-          <maven.compiler.source>17</maven.compiler.source>
-          <maven.compiler.target>17</maven.compiler.target>
-      </properties>
- 
-      <dependencies>
-          <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-controls</artifactId>
-            <version>${javafx.version}</version>
-          </dependency>
-          <!-- Add other JavaFX dependencies as needed -->
-      </dependencies>
- 
-      <build>
-          <plugins>
-            <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-compiler-plugin</artifactId>
-              <version>3.11.0</version>
-              <configuration>
-                <source>${maven.compiler.source}</source>
-                <target>${maven.compiler.target}</target>
-              </configuration>
-            </plugin>
-            <plugin>
-              <groupId>org.openjfx</groupId>
-              <artifactId>javafx-maven-plugin</artifactId>
-              <version>0.0.8</version>
-              <configuration>
-                <mainClass>com.yourcompany.intergalacticbattlewars.HelloApplication</mainClass>
-              </configuration>
-            </plugin>
-          </plugins>
-      </build>
-      ```
 
 ### Running the Project
 
@@ -108,14 +67,7 @@ To get started with the project, you'll need to set up JavaFX on your machine an
 
 ### Contribution
 
-If you wish to contribute to the project, please follow the standard Git workflow:
-1. Fork the repository.
-2. Create a feature branch.
-3. Make your changes.
-4. Submit a pull request with a detailed description of the changes.
+No contributions accepted
 
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
