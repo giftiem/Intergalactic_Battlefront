@@ -13,7 +13,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage primaryStage) {
         // Create a Label with the welcome message
-        Label welcomeLabel = new Label("Hello, welcome to Intergalactic Battle Wars!");
+        Label welcomeLabel = new Label("Hello, Welcome to Intergalactic Battle Wars!");
 
         // Create a layout and add the Label to it
         BorderPane root = new BorderPane();
