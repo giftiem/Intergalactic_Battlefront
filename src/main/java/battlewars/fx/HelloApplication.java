@@ -15,6 +15,8 @@ public class HelloApplication extends Application {
         // Create a Label with the welcome message
         Label welcomeLabel = new Label("Hello, Welcome to Intergalactic Battle Wars!");
 
+
+
         // Create a layout and add the Label to it
         BorderPane root = new BorderPane();
         root.setCenter(welcomeLabel);
