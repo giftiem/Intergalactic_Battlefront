@@ -13,4 +13,6 @@ module org.example.demo1 {
 
     opens battlewars.fx to javafx.fxml;
     exports battlewars.fx;
+    exports battlewars.fx.controller;
+    opens battlewars.fx.controller to javafx.fxml;
 }

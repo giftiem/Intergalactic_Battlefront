@@ -111,7 +111,7 @@
         <artifactId>javafx-maven-plugin</artifactId>
         <version>0.0.8</version>
         <configuration>
-          <mainClass>battlewars.fx.HelloApplication</mainClass>
+          <mainClass>battlewars.fx.Main</mainClass>
         </configuration>
       </plugin>
     </plugins>
